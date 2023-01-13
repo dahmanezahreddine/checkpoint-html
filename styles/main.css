@@ -1,0 +1,18 @@
+main {
+  letter-spacing: 0.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15vh auto;
+}
+main .introduction {
+  width: 55%;
+}
+main .about-me {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* color: rgba(255, 255, 255, 0.79); */

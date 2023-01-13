@@ -1,18 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
 
+html,
+body {
+  margin: 10px 0;
+  padding: 0;
+}
 html {
   font-family: "Roboto", sans-serif;
   color: rgba(234, 199, 3, 0.87);
-
   background-color: black;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 a {
   display: inline;
   font-family: "Gloria Hallelujah", cursive;
   color: grey;
-  
 }
-nav {
-  text-align: end;
+h1,
+h3,
+h5 {
+  margin: 10px 0;
+}
+h5 {
+  font-size: 0.6rem;
+}
+h1 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 0.8rem;
 }
