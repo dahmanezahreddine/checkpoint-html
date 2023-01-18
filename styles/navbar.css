@@ -20,3 +20,24 @@ header {
 .nav-list li a:hover {
   color: gold;
 }
+/* dropdown menu */
+#contact-dropdown {
+  position: relative;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  width: 120px;
+  top: 50px;
+  right: 0;
+  color: darkred;
+  background-color: gray;
+  text-align: left;
+  padding: 0;
+}
+.dropdown li {
+  list-style: none;
+}
+#contact-dropdown:hover ul.dropdown {
+  display: block;
+}

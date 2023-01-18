@@ -14,5 +14,59 @@ main .about-me {
   justify-content: space-between;
   gap: 15px;
 }
+/* work page */
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+    "item1 item2 item2"
+    "item3 item3 item3"
+    "item4 item5 item5";
+}
+.work-list article {
+  background-color: lightgray;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-list article:hover {
+  box-shadow: -1px 1px 28px 4px rgba(224, 215, 29, 0.75);
+  -webkit-box-shadow: -1px 1px 28px 4px rgba(224, 215, 29, 0.75);
+  -moz-box-shadow: -1px 1px 28px 4px rgba(224, 215, 29, 0.75);
+}
+.work-list button {
+  margin-top: 5px;
+  border: none;
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+}
+.svg {
+  background-color: white;
+}
+.svg svg {
+  fill: lightgray;
+}
+.svg svg:hover {
+  fill: aqua;
+}
 
-/* color: rgba(255, 255, 255, 0.79); */
+.article1 {
+  grid-area: item1;
+}
+.article2 {
+  grid-area: item2;
+}
+.article3 {
+  grid-area: item3;
+}
+.article4 {
+  grid-area: item4;
+}
+.article5 {
+  grid-area: item5;
+}
